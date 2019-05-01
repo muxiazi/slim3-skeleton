@@ -24,7 +24,8 @@
         "andrewdyer/slim3-league": "^1.0",
         "andrewdyer/slim3-console": "^1.0",
         "illuminate/database": "^5.8",
-        "hassankhan/config": "^2.0"
+        "hassankhan/config": "^2.0",
+        "robmorgan/phinx": "^0.10.7"
     },
     "require-dev": {
         "symfony/dotenv": "^4.2",

@@ -1,0 +1,32 @@
+<?php
+
+use App\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+
+/**
+ * Class $className.
+ */
+class $className extends $baseClassName
+{
+    /**
+     * Migrate Down.
+     */
+    public function down()
+    {
+        $this->schema()->drop('');
+    }
+
+    /**
+     * Migrate Up.
+     */
+    public function up()
+    {
+        $this->schema()->create('', function (Blueprint $table) {
+            $table->increments('id');
+
+            // TODO: Implement up() method.
+
+            $table->timestamps();
+        });
+    }
+}
