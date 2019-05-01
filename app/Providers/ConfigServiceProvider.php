@@ -22,13 +22,14 @@ class ConfigServiceProvider extends AbstractServiceProvider
      */
     public function register()
     {
+        $container = $this->getContainer();
         $config = new Config(glob(base_path('config/*.php')));
 
-        $this->getContainer()->share('config', function () use ($config) {
+        $container->share('config', function () use ($config) {
             return $config;
         });
 
-        $this->getContainer()->share(Config::class, function () use ($config) {
+        $container->share(Config::class, function () use ($config) {
             return $config;
         });
     }
