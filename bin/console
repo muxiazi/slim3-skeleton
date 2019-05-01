@@ -1,0 +1,18 @@
+#!/usr/bin/evn php
+
+<?php
+
+use Anddye\Console\Console;
+use Anddye\Console\Kernel\Kernel;
+
+require_once __DIR__.'/../bootstrap/app.php';
+
+$container = $app->getContainer();
+$commands = $container->get('config')->get('commands');
+
+$kernel = new Kernel();
+$kernel->addCommands($commands);
+
+$console = new Console($app);
+$console->boot($kernel);
+$console->run();
