@@ -2,4 +2,4 @@
 
 use App\Controllers\AppController;
 
-$app->get('/', AppController::class.':getAction');
+$app->get('/', AppController::class.':index');

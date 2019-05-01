@@ -10,5 +10,6 @@ return [
     'providers' => [
         App\Providers\DatabaseServiceProvider::class,
         App\Providers\LoggerServiceProvider::class,
+        App\Providers\ViewServiceProvider::class,
     ],
 ];
