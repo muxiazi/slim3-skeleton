@@ -9,5 +9,6 @@ return [
     'middleware' => [],
     'providers' => [
         App\Providers\DatabaseServiceProvider::class,
+        App\Providers\LoggerServiceProvider::class,
     ],
 ];
