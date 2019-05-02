@@ -19,6 +19,9 @@ class AppController extends AbstractController
      */
     public function index(Response $response, Twig $twig): Response
     {
-        return $twig->render($response, 'app/index.html.twig');
+        return $twig->render($response, 'app/index.html.twig', [
+            'controllerName' => 'AppController',
+            'controllerLocation' => __DIR__.'/AppController.php',
+        ]);
     }
 }
