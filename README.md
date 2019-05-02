@@ -1,6 +1,14 @@
 # Slim3 Skeleton
 
-A basic starter structure which can be used to develop RESTful APIs and web applications, built with the [Slim3 League](https://github.com/andrewdyer/slim3-league) library.
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a79d6cba423a45e8bfc42e2484cea212)](https://www.codacy.com/app/andrewdyer/slim3-skeleton?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=andrewdyer/slim3-skeleton&amp;utm_campaign=Badge_Grade)
+[![Latest Stable Version](https://poser.pugx.org/andrewdyer/slim3-skeleton/v/stable)](https://packagist.org/packages/andrewdyer/slim3-skeleton)
+[![Total Downloads](https://poser.pugx.org/andrewdyer/slim3-skeleton/downloads)](https://packagist.org/packages/andrewdyer/slim3-skeleton)
+[![Daily Downloads](https://poser.pugx.org/andrewdyer/slim3-skeleton/d/daily)](https://packagist.org/packages/andrewdyer/slim3-skeleton)
+[![Monthly Downloads](https://poser.pugx.org/andrewdyer/slim3-skeleton/d/monthly)](https://packagist.org/packages/andrewdyer/slim3-skeleton)
+[![Latest Unstable Version](https://poser.pugx.org/andrewdyer/slim3-skeleton/v/unstable)](https://packagist.org/packages/andrewdyer/slim3-skeleton)
+[![License](https://poser.pugx.org/andrewdyer/slim3-skeleton/license)](https://packagist.org/packages/andrewdyer/slim3-skeleton)
+
+A basic starter structure which can be used to develop RESTful APIs and web applications, built with the [Slim3 League](https://github.com/andrewdyer/slim3-llk;;p[8eague) library.
 
 ## License
 
