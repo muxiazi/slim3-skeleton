@@ -7,7 +7,7 @@ $container->inflector(Anddye\App\Controllers\AbstractController::class)->invokeM
 
 // Update default settings
 $container->get('settings')->replace([
-    'displayErrorDetails' => 'dev' === getenv('APP_ENV'),
+    'displayErrorDetails' => 'dev' === env('APP_ENV'),
 ]);
 
 // Core providers
