@@ -22,11 +22,11 @@ composer create-project andrewdyer/slim3-skeleton project_name
 
 ## Features
 
-*  Data access using Laravel's Eloquent ORM.
-*  Rendering views with Twig.
-*  Services and dependencies loaded using Providers, allows autoloading exposed classnames/aliases from inside other classes.
-*  Separated, easy to setup app configuration files inside `config/` folder.
-*  Seeds and migrations using Phinx.
+*   Data access using Laravel's Eloquent ORM.
+*   Rendering views with Twig.
+*   Services and dependencies loaded using Providers, allows autoloading exposed classnames/aliases from inside other classes.
+*   Separated, easy to setup app configuration files inside `config/` folder.
+*   Seeds and migrations using Phinx.
 
 ## Support
    
@@ -38,11 +38,11 @@ If you're using this package, I'd love to hear your thoughts!
 
 ## Useful Links
 
-*  [Slim Framework](https://www.slimframework.com)
-*  [Slim3 League](https://github.com/andrewdyer/slim3-league)
-*  [Slim3 Console](https://github.com/andrewdyer/slim3-console)
-*  [Slim Framework Twig View](https://github.com/slimphp/Twig-View)
-*  [Illuminate Database](https://github.com/illuminate/database)
-*  [Config](https://github.com/hassankhan/config)
-*  [Phinx](https://github.com/cakephp/phinx)
-*  [Monolog](https://github.com/Seldaek/monolog)
+*   [Slim Framework](https://www.slimframework.com)
+*   [Slim3 League](https://github.com/andrewdyer/slim3-league)
+*   [Slim3 Console](https://github.com/andrewdyer/slim3-console)
+*   [Slim Framework Twig View](https://github.com/slimphp/Twig-View)
+*   [Illuminate Database](https://github.com/illuminate/database)
+*   [Config](https://github.com/hassankhan/config)
+*   [Phinx](https://github.com/cakephp/phinx)
+*   [Monolog](https://github.com/Seldaek/monolog)
