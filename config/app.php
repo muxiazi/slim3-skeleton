@@ -2,7 +2,7 @@
 
 return [
     'cors' => [
-        'origin' => getenv('CORS_ALLOW_ORIGIN'),
+        'origin' => env('CORS_ALLOW_ORIGIN'),
         'methods' => ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
         'headers.allow' => ['X-Requested-With', 'Content-Type', 'Accept', 'Origin', 'Authorization'],
         'headers.expose' => ['Authorization', 'Etag'],

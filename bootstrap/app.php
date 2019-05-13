@@ -3,7 +3,7 @@
 require_once __DIR__.'/../vendor/autoload.php';
 
 // The check is to ensure we don't use .env in production
-if (!getenv('APP_ENV')) {
+if (!env('APP_ENV')) {
     try {
         (new Symfony\Component\Dotenv\Dotenv())->load(base_path('.env'));
     } catch (Symfony\Component\Dotenv\Exception\PathException $ex) {

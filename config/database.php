@@ -2,12 +2,12 @@
 
 return [
     'db' => [
-        'driver' => getenv('DB_DRIVER'),
-        'host' => getenv('DB_HOST'),
-        'port' => getenv('DB_PORT'),
-        'database' => getenv('DB_DATABASE'),
-        'username' => getenv('DB_USERNAME'),
-        'password' => getenv('DB_PASSWORD'),
+        'driver' => env('DB_DRIVER'),
+        'host' => env('DB_HOST'),
+        'port' => env('DB_PORT'),
+        'database' => env('DB_DATABASE'),
+        'username' => env('DB_USERNAME'),
+        'password' => env('DB_PASSWORD'),
         'charset' => 'utf8mb4',
         'collation' => 'utf8mb4_unicode_ci',
         'prefix' => '',
