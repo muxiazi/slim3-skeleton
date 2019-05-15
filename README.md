@@ -8,7 +8,7 @@
 [![Latest Unstable Version](https://poser.pugx.org/andrewdyer/slim3-skeleton/v/unstable)](https://packagist.org/packages/andrewdyer/slim3-skeleton)
 [![License](https://poser.pugx.org/andrewdyer/slim3-skeleton/license)](https://packagist.org/packages/andrewdyer/slim3-skeleton)
 
-A basic starter structure which can be used to develop RESTful APIs and web applications, built with the [Slim3 League](https://github.com/andrewdyer/slim3-llk;;p[8eague) library.
+A basic starter structure which can be used to develop RESTful APIs and web applications, built with the [Slim3 League](https://github.com/andrewdyer/slim3-league) library.
 
 ## License
 
