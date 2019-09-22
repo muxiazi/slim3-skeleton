@@ -1,4 +1,6 @@
-# Slim3 Skeleton
+<p align="center">
+<img src="https://user-images.githubusercontent.com/8114523/65391266-1c6c4500-dd5f-11e9-96b3-8779c024ccd2.png" />
+</p>
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a79d6cba423a45e8bfc42e2484cea212)](https://www.codacy.com/app/andrewdyer/slim3-skeleton?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=andrewdyer/slim3-skeleton&amp;utm_campaign=Badge_Grade)
 [![Latest Stable Version](https://poser.pugx.org/andrewdyer/slim3-skeleton/v/stable)](https://packagist.org/packages/andrewdyer/slim3-skeleton)
